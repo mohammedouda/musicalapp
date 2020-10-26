@@ -1,0 +1,128 @@
+body {
+    background-color: #000;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+  }
+  
+  #bg-before {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: inset 0 0 200px #000;
+    background: url(https://pm1.narvii.com/6550/b065d35aa41fdb109683539db339cffe5a788aa0_hq.jpg) 0/cover fixed;
+    filter: blur(20px);
+    animation: blurAni 24s infinite;
+  }
+  
+  #bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    animation: bgAni 18s infinite;
+  }
+  
+ 
+  main {
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    left: 0;
+    bottom: 2rem;
+    padding: 0 calc(50% - 10rem);
+    text-align: center;
+  }
+  
+  #albumCover {
+    width: 100%;
+    height: 20rem;
+    background-image: url(https://i1.sndcdn.com/artworks-000361895088-bn4s38-t500x500.jpg);
+    background-size: cover;
+    display: inline-block;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+  }
+  
+  #progress {
+    width: 100%;
+    background-color: rgba(142, 166, 208, 0.2);
+  }
+  
+  #progress-bar {
+    width: 30%;
+    height: 4pt;
+    background-color: #F7CAC9;
+  }
+  #progress-bar.play {
+    animation: progress-bar 240s infinite;
+  }
+  
+  
+  
+  #title {
+    margin: 1rem 0;
+    width: 100%;
+    overflow: hidden;
+    height: 3rem;
+  }
+  
+  #title-text {
+    font-size: 30px;
+  }
+  
+  #controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .control {
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    border: 2px solid;
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+   
+  }
+  .control:hover, .control:focus {
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  }
+  .control:active {
+    transform: scale(0.9);
+    box-shadow: none;
+    text-shadow: none;
+  }
+  .control .icon {
+    font-size: 2.7rem;
+  }
+  
+  #controls-play {
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+  }
+  #controls-play .icon {
+    font-size: 4rem;
+  }
+  #controls-play .icon-pause {
+    display:none;
+  }
+  #controls-play.play .icon-pause {
+    display: block;
+  }
+  #controls-play.play .icon-play {
+    display: none;
+  }
+
+  #term{
+    font-size: 20px;
+  }

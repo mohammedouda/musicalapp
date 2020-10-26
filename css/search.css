@@ -1,0 +1,42 @@
+body{
+    
+    background: url(https://e7.pngegg.com/pngimages/342/42/png-clipart-wedding-invitation-concert-background-music-poster-color-notes-illustration-of-music-notes-artwork-ribbon-color-splash-thumbnail.png) 0/cover fixed;
+}
+
+.search-wrapper {
+  position: absolute;
+  transform: translate(-80%, -50%);
+  top:20%;
+  left:50%;
+}
+#search{
+  color:palevioletred;
+  font-size:40px;
+}
+#list{
+  background-color:none;
+  border: none;
+  color:palevioletred;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 2px 2px;
+  cursor: pointer;
+
+}
+
+#icon{
+  background-color:none;
+  border: none;
+  color:palevioletred;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 2px 2px;
+  cursor: pointer;
+
+}
